@@ -1,0 +1,22 @@
+package selfProgramming;
+import java.util.Scanner;
+public class ifStatement2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner input = new Scanner(System.in);
+		System.out.print("Enter an integer: ");
+		//enter input
+		int number = input.nextInt();
+		
+		//check 5
+		if (number % 5 ==0)
+			System.out.println("Hi Five");
+		
+		//check even
+		if (number % 2 ==0)
+			System.out.println("Hi Even");
+
+	}
+
+}

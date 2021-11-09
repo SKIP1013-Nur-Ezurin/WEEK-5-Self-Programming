@@ -1,0 +1,26 @@
+package selfProgramming;
+import java.util.Scanner;
+public class ifElseStatement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		System.out.println("Area of circle");
+		Scanner input = new Scanner (System.in);
+		//if-else statement is true or false statement
+		System.out.print("Enter radius of a circle : ");
+		double radius = input.nextDouble();
+		
+		double area;
+		final double PI = 3.14159265;
+		
+		if (radius >= 0) {
+			area = radius * radius * PI;
+			System.out.printf("The area for the circle of the radius " + radius + " is :%.2f" , area);
+		}
+		else {
+			System.out.println("Negative input");
+		}
+		
+	}
+
+}

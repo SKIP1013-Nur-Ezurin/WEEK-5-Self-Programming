@@ -1,0 +1,19 @@
+package selfProgramming;
+
+public class ifStatement {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//selection structure: if statement, if-else statement, switch statement
+		//if statement condition only true
+		//boolean expression ==: equal to; !==: not equal to , <: less than, >: more than , <=: less than or equal to , >=: greater than or equal to
+		
+		double x =15.0;
+		double y=25.0;
+		if (y!=x)
+			System.out.println("Result: y not equal x");
+		
+	}
+
+	
+}

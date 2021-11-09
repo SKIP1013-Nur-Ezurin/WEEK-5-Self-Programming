@@ -1,0 +1,27 @@
+package selfProgramming;
+
+import java.util.Scanner;
+
+public class blockIfElseBoolean {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//Loan Processing: can apply if age is between 25 to 50
+		Scanner input = new Scanner (System.in);
+		
+		System.out.print("Enter your age: ");
+		int age = input.nextInt();
+		
+		
+		if ((age>=25) && (age <=50))
+		{
+			System.out.println("You are qualified to apply");
+		}
+		else
+		{
+			System.out.println("You are NOT qualified to apply");
+		}
+
+	}
+
+}
